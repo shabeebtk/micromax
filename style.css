@@ -1,0 +1,91 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+
+.carousel_div{
+    height: 80vh;
+}
+
+.nav_links{
+    font-weight: 500;
+    text-decoration: none;
+    color: black;
+}
+
+.icons_div{
+    display: flex;
+    column-gap: 8%;
+}
+
+
+
+.mobile_items{
+    width: 13%;
+}
+
+.phone_images{
+    height: 200px;
+}
+
+.airfunk_img{
+    height: 200px;
+}
+
+
+ /*size higher than mobile screens */
+@media screen and (min-width: 600px) {
+    .airfunk_div{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+
+/* mobile screens size*/
+@media only screen and (max-width: 600px) {
+
+    .carousel_div{
+        height: 27vh;
+    }
+
+    .micromax_logo{
+        height: 30px;
+    }
+
+    .yt_video{
+        height: 200px;
+        margin-bottom: 25px;
+    }
+    
+
+    .footer_end_links{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+    }
+
+    
+
+    .follow_us{
+        font-size:  16px;
+    }
+  
+}
+
+.yt_div{
+    width: 95%;
+}
+
+.footer_links > a > p{
+    color: white;
+    font-size: small;
+}
+
+.footer_links > a {
+    text-transform: none;
+    text-decoration: none;
+}
